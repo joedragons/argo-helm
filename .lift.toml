@@ -1,7 +1,5 @@
-jdkVersion="17"
-customTools=["/extra-tools/clomonitor.sh"] # enable CLOMonitor scanning
-tools=[] # do not include any other scanning tools
-​
+customTools=["/extra-tools/clomonitor.sh"]
+tools=[]
 ignoreRules = [
 	"Security: Signed Releases",
 	"Security: Security Policy",
