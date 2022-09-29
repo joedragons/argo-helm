@@ -1,7 +1,7 @@
 jdkVersion="17"
 customTools=["/extra-tools/clomonitor.sh"] # enable CLOMonitor scanning
 tools=[] # do not include any other scanning tools
-​
+
 ### code-lite (subset of code, recommended for secondary code repositories)
 ignoreRules = [
 	"Security: Signed Releases",
@@ -26,7 +26,7 @@ ignoreRules = [
 	"Best Practices: Artifacthub Badge",
 	"Best Practices: Analytics"
 ]
-​
+
 ### Ignore all tests
 # ignoreRules = [
 # 	"Security: Signed Releases",
